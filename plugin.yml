@@ -1,0 +1,20 @@
+main : com.josroossien.arvip.ARVip
+name: ARTowny
+version: 0.1
+description: Vip benefits like effects and such.
+depend: [CWCore]
+commands:
+  effect:
+    description: Particle and sound effect selection.
+    usage: /<command>
+    aliases: [effects, ef]
+  morph:
+    description: Morph in to a mob.
+    usage: /<command> [player]
+  backpack:
+    description: Open your backpack.
+    usage: /<command>
+    aliases: [bp, inv]
+  hat:
+    description: Put on a hat!
+    usage: /<command>
